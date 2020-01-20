@@ -1,0 +1,4735 @@
+{
+    "scopes": {
+      "logs": "Audit Logs",
+      "lists": "Master Lists",
+      "brands": "Brands",
+      "categories": "Product Categories",
+      "certifications": "Content Ratings",
+      "companies": "Companies",
+      "content_types": "Content Types",
+      "times_of_day": "Times of Day",
+      "countries": "Countries",
+      "screens": "Screens",
+      "theatres": "Theatres",
+      "movies": "Movies",
+      "notification_templates": "Notification Templates",
+      "brand_verifications": "Brand Verifications",
+      "holidays": "Public Holidays",
+      "playlist_pack_types": "Playlist Pack Types",
+      "campaign_target_types": "Campaign Target Types",
+      "playlist_templates": "Playlist Templates",
+      "reasons": "Rejection Reasons",
+      "rights": "Rights",
+      "segment_types": "Segment Types",
+      "theatre_types": "Theatre Types",
+      "theatre_location_types": "Theatre Location Types",
+      "digital_integrators": "Digital Integrators",
+      "projection_types": "Projection Types",
+      "cooling_types": "Cooling Types",
+      "experiences": "Experiences",
+      "tags": "Tags",
+      "scopes": "Roles & Scopes",
+      "product_id_types": "Product ID Types",
+      "rate_cards": "Rate Cards",
+      "billing_cycles": "Billing Cycles",
+      "advertisers": "Advertisers",
+      "cpls": "CPLs",
+      "reports": "Reports"
+    },
+    "roleScopes": {
+      "SLATE_ADMIN": {
+        "SLATE_ADMIN": {
+          "SLATE_ADMIN": {
+            "lists": [
+              "READ"
+            ],
+            "brands": [
+              "READ",
+              "WRITE",
+              "MERGE"
+            ],
+            "categories": [
+              "READ",
+              "WRITE"
+            ],
+            "certifications": [
+              "READ",
+              "WRITE"
+            ],
+            "companies": [
+              "READ",
+              "WRITE",
+              "APPROVE"
+            ],
+            "content_types": [
+              "READ",
+              "WRITE"
+            ],
+            "times_of_day": [
+              "READ",
+              "WRITE"
+            ],
+            "countries": [
+              "READ",
+              "WRITE"
+            ],
+            "screens": [
+              "READ",
+              "WRITE"
+            ],
+            "theatres": [
+              "READ",
+              "WRITE"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [
+              "READ",
+              "WRITE"
+            ],
+            "brand_verifications": [
+              "READ",
+              "WRITE"
+            ],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ",
+              "WRITE"
+            ],
+            "playlist_templates": [
+              "READ",
+              "WRITE",
+              "ASSIGN",
+              "REMOVE"
+            ],
+            "reasons": [
+              "READ",
+              "WRITE"
+            ],
+            "rights": [
+              "READ",
+              "ASSIGN"
+            ],
+            "segment_types": [
+              "READ",
+              "WRITE"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ",
+              "WRITE"
+            ],
+            "logs": [
+              "READ"
+            ],
+            "rate_cards": [
+              "READ",
+              "WRITE"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ",
+              "WRITE"
+            ],
+            "cpls": [
+              "READ",
+              "WRITE"
+            ],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "SLATE_APPROVER": {
+            "lists": [
+              "READ"
+            ],
+            "brands": [
+              "READ",
+              "WRITE"
+            ],
+            "categories": [
+              "READ",
+              "WRITE"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ",
+              "WRITE",
+              "APPROVE"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ",
+              "WRITE"
+            ],
+            "theatres": [
+              "READ",
+              "WRITE"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [
+              "READ"
+            ],
+            "brand_verifications": [
+              "READ",
+              "WRITE"
+            ],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ",
+              "WRITE",
+              "ASSIGN",
+              "REMOVE"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [
+              "READ"
+            ],
+            "rate_cards": [
+              "READ",
+              "WRITE"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ",
+              "WRITE"
+            ],
+            "cpls": [
+              "READ",
+              "WRITE"
+            ],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "SLATE_OPS": {
+            "lists": [
+              "READ"
+            ],
+            "brands": [
+              "READ",
+              "WRITE"
+            ],
+            "categories": [
+              "READ",
+              "WRITE"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ",
+              "WRITE"
+            ],
+            "theatres": [
+              "READ",
+              "WRITE"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [
+              "READ"
+            ],
+            "brand_verifications": [
+              "READ",
+              "WRITE"
+            ],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ",
+              "WRITE",
+              "ASSIGN",
+              "REMOVE"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [
+              "READ"
+            ],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [
+              "READ",
+              "WRITE"
+            ],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "SLATE_SUPPORT": {
+            "lists": [
+              "READ"
+            ],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [
+              "READ"
+            ],
+            "brand_verifications": [
+              "READ"
+            ],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [
+              "READ"
+            ],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [
+              "READ"
+            ],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "SLATE_FIN_OPS": {
+            "lists": [
+              "READ"
+            ],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [
+              "READ"
+            ],
+            "brand_verifications": [
+              "READ"
+            ],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [
+              "READ"
+            ],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [
+              "READ"
+            ],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "SLATE_VIEWER": {
+            "lists": [
+              "READ"
+            ],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [
+              "READ"
+            ],
+            "brand_verifications": [
+              "READ"
+            ],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [
+              "READ"
+            ],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [
+              "READ"
+            ],
+            "reports": []
+          }
+        }
+      },
+      "EXHIBITOR": {
+        "MARKETPLACE_CONTROLLER": {
+          "ADMIN": {
+            "lists": [],
+            "brands": [
+              "READ",
+              "WRITE"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ",
+              "WRITE"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ",
+              "WRITE"
+            ],
+            "theatres": [
+              "READ",
+              "WRITE"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ",
+              "ASSIGN"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ",
+              "WRITE"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "APPROVER": {
+            "lists": [],
+            "brands": [
+              "READ",
+              "WRITE"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ",
+              "WRITE"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ",
+              "WRITE"
+            ],
+            "theatres": [
+              "READ",
+              "WRITE"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ",
+              "WRITE"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "SALES_REP": {
+            "lists": [],
+            "brands": [
+              "READ",
+              "WRITE"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ",
+              "WRITE"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "FIN_OPS": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "VIEWER": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": []
+          }
+        },
+        "PLAYLIST_MANAGER": {
+          "ADMIN": {
+            "lists": [],
+            "brands": [
+              "READ",
+              "WRITE"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ",
+              "WRITE"
+            ],
+            "theatres": [
+              "READ",
+              "WRITE"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ",
+              "WRITE"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ",
+              "WRITE"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "APPROVER": {
+            "lists": [],
+            "brands": [
+              "READ",
+              "WRITE"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ",
+              "WRITE"
+            ],
+            "theatres": [
+              "READ",
+              "WRITE"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ",
+              "WRITE"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ",
+              "WRITE"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "SALES_REP": {
+            "lists": [],
+            "brands": [
+              "READ",
+              "WRITE"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "FIN_OPS": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "VIEWER": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": []
+          }
+        },
+        "SELLER": {
+          "ADMIN": {
+            "lists": [],
+            "brands": [
+              "READ",
+              "WRITE"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ",
+              "WRITE"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ",
+              "WRITE"
+            ],
+            "theatres": [
+              "READ",
+              "WRITE"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ",
+              "WRITE"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "APPROVER": {
+            "lists": [],
+            "brands": [
+              "READ",
+              "WRITE"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ",
+              "WRITE"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ",
+              "WRITE"
+            ],
+            "theatres": [
+              "READ",
+              "WRITE"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ",
+              "WRITE"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "SALES_REP": {
+            "lists": [],
+            "brands": [
+              "READ",
+              "WRITE"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ",
+              "WRITE"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "FIN_OPS": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "VIEWER": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": []
+          }
+        },
+        "VIEWER": {
+          "ADMIN": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "APPROVER": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "SALES_REP": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "FIN_OPS": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "VIEWER": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": []
+          }
+        }
+      },
+      "MEDIA_AGENCY": {
+        "MARKETPLACE_CONTROLLER": {
+          "ADMIN": {
+            "lists": [],
+            "brands": [
+              "READ",
+              "WRITE"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ",
+              "WRITE"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ",
+              "WRITE"
+            ],
+            "theatres": [
+              "READ",
+              "WRITE"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ",
+              "WRITE",
+              "ASSIGN",
+              "REMOVE"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ",
+              "WRITE"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ",
+              "WRITE"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "APPROVER": {
+            "lists": [],
+            "brands": [
+              "READ",
+              "WRITE"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ",
+              "WRITE"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ",
+              "WRITE"
+            ],
+            "theatres": [
+              "READ",
+              "WRITE"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ",
+              "WRITE"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "SALES_REP": {
+            "lists": [],
+            "brands": [
+              "READ",
+              "WRITE"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ",
+              "WRITE"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "FIN_OPS": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "VIEWER": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": []
+          }
+        },
+        "PLAYLIST_MANAGER": {
+          "ADMIN": {
+            "lists": [],
+            "brands": [
+              "READ",
+              "WRITE"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ",
+              "WRITE"
+            ],
+            "theatres": [
+              "READ",
+              "WRITE"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ",
+              "WRITE",
+              "ASSIGN",
+              "REMOVE"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ",
+              "WRITE"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "APPROVER": {
+            "lists": [],
+            "brands": [
+              "READ",
+              "WRITE"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ",
+              "WRITE"
+            ],
+            "theatres": [
+              "READ",
+              "WRITE"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ",
+              "WRITE",
+              "ASSIGN",
+              "REMOVE"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ",
+              "WRITE"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "SALES_REP": {
+            "lists": [],
+            "brands": [
+              "READ",
+              "WRITE"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "FIN_OPS": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "VIEWER": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": []
+          }
+        },
+        "SELLER": {
+          "ADMIN": {
+            "lists": [],
+            "brands": [
+              "READ",
+              "WRITE"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ",
+              "WRITE"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ",
+              "WRITE"
+            ],
+            "theatres": [
+              "READ",
+              "WRITE"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ",
+              "WRITE",
+              "ASSIGN",
+              "REMOVE"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ",
+              "WRITE"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ",
+              "WRITE"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "APPROVER": {
+            "lists": [],
+            "brands": [
+              "READ",
+              "WRITE"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ",
+              "WRITE"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ",
+              "WRITE"
+            ],
+            "theatres": [
+              "READ",
+              "WRITE"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ",
+              "WRITE"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "SALES_REP": {
+            "lists": [],
+            "brands": [
+              "READ",
+              "WRITE"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ",
+              "WRITE"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "FIN_OPS": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "VIEWER": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": []
+          }
+        },
+        "VIEWER": {
+          "ADMIN": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "APPROVER": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "SALES_REP": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "FIN_OPS": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": [
+              "READ",
+              "WRITE"
+            ]
+          },
+          "VIEWER": {
+            "lists": [],
+            "brands": [
+              "READ"
+            ],
+            "categories": [
+              "READ"
+            ],
+            "certifications": [
+              "READ"
+            ],
+            "companies": [
+              "READ"
+            ],
+            "times_of_day": [
+              "READ"
+            ],
+            "content_types": [
+              "READ"
+            ],
+            "countries": [
+              "READ"
+            ],
+            "screens": [
+              "READ"
+            ],
+            "theatres": [
+              "READ"
+            ],
+            "movies": [
+              "READ"
+            ],
+            "notification_templates": [],
+            "brand_verifications": [],
+            "theatre_types": [
+              "READ"
+            ],
+            "theatre_location_types": [
+              "READ"
+            ],
+            "digital_integrators": [
+              "READ"
+            ],
+            "projection_types": [
+              "READ"
+            ],
+            "cooling_types": [
+              "READ"
+            ],
+            "experiences": [
+              "READ"
+            ],
+            "holidays": [
+              "READ"
+            ],
+            "playlist_pack_types": [
+              "READ"
+            ],
+            "campaign_target_types": [
+              "READ"
+            ],
+            "playlist_templates": [
+              "READ"
+            ],
+            "reasons": [
+              "READ"
+            ],
+            "rights": [
+              "READ"
+            ],
+            "segment_types": [
+              "READ"
+            ],
+            "tags": [
+              "READ"
+            ],
+            "scopes": [
+              "READ"
+            ],
+            "product_id_types": [
+              "READ"
+            ],
+            "logs": [],
+            "rate_cards": [
+              "READ"
+            ],
+            "billing_cycles": [
+              "READ"
+            ],
+            "advertisers": [
+              "READ"
+            ],
+            "cpls": [],
+            "reports": []
+          }
+        }
+      }
+    }
+  }
