@@ -27,7 +27,7 @@
 		"chalk": "^3.0.0",
 		"eslint-config-xo-react": "^0.22.0",
 		"eslint-plugin-react": "^7.17.0",
-		"eslint-plugin-react-hooks": "^2.3.0",
+		"eslint-plugin-react-hooks": "^4.1.2",
 		"ink-testing-library": "^1.0.3",
 		"xo": "^0.25.3"
 	},
